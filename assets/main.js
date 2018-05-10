@@ -10369,7 +10369,7 @@ var $ = require("jquery");
 
 $(function() {
   $('.h-nav').click(function() {
-    $(this).toggleClass("active");
+    $(this).toggleClass('active');
     if($(this).hasClass('active')) {
       $('.g-nav').addClass('active');
     } else {
@@ -10377,6 +10377,5 @@ $(function() {
     }
   });
 });
-console.log('test');
 
 },{"jquery":1}]},{},[2]);

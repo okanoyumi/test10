@@ -66,12 +66,12 @@ $dark: red;
   padding-top: 50px;
   text-align: center;
   color: $main;
-  background: light-gray;
+  background: lightgray;
   transition: all 0.8s;
   .nav_li {
     width: 100%;
     padding: 10px;
-    list-style-tyoe: none;
+    list-style-type: none;
   }
   .active {
     transform: translateY(0%);
@@ -83,8 +83,6 @@ $dark: red;
     display: block;
   }
 }
-
-
 // large
 @media screen and (min-width:768px) {
   .h-nav {

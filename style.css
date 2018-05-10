@@ -51,14 +51,18 @@
   padding-top: 50px;
   text-align: center;
   color: red;
-  background: light-gray;
+  background: lightgray;
   transition: all 0.8s; }
   .g-nav .nav_li {
     width: 100%;
     padding: 10px;
-    list-style-tyoe: none; }
+    list-style-type: none; }
   .g-nav .active {
     transform: translateY(0%); }
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .h-nav {
+    display: block; } }
 
 @media screen and (min-width: 768px) {
   .h-nav {
