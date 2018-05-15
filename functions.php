@@ -39,8 +39,8 @@ add_action ( 'init', 'news_init' );
  */
 function add_files() {
   wp_enqueue_script(
-    'mainjs', get_template_directory_uri() . 'assets/main.js' );
+    'mainjs', get_theme_file_uri( '/assets/main.js' ) );
   wp_enqueue_style(
-    'maincss', get_template_directory_uri() . 'style.css' );
+    'maincss', get_stylesheet_uri() );
 }
-add_action( 'add_files' );
+add_action( 'wp_enqueue_scripts', 'add_files' );
